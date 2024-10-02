@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html{
+    font-size: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+
+.auto-fit{
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+}
+
+
+.ql-editor{
+
+    font-size: 1.05rem;
+}
+
+
+.post-content p{
+    font-size: 1rem;
+    margin-bottom: 0.2px;
+    font-family: sans-serif;
+}
+.post-content h1{
+    font-size: 1.8rem;
+    font-family: sans-serif;
+}
+
+.post-content h2{
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    margin: 1.2rem 0;
+}
+
+.post-content a{
+    color: rgb(73,149,199);
+    text-decoration: none;
+
+
+}
+
+.post-content  a:hover{
+    text-decoration: underline;
+}
+
+.dark .post-content a{
+    color: rgb(245, 8, 39);
+    text-decoration: none;
+
+}
+
+.dark .post-content a:hover{
+    text-decoration: underline;
+}
